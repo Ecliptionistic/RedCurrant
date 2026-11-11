@@ -1,3 +1,5 @@
 from .svm import SVMModel
 from .bilstm import BiLSTMModel
-from .wav2vec import Wav2VecModel
+from .cnn_lstm import CNNLSTMModel
+from .wav2vec import SSLModel, Wav2VecModel
+from .whisper import WhisperModel
